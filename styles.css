@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  background-color: rosybrown;
+  color: #fff;
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header nav ul {
+  margin-bottom: 1rem;
+}
+
+#titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rosybrown;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#foto-portada {
+  max-height: 400px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galeria figure {
+  margin: 10px;
+  width: calc(33.333% - 20px);
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.contacto {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
